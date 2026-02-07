@@ -11,5 +11,9 @@ print(np.sum(array, axis=1))  # Sum along rows
 print(np.mean(array, axis=0))  # Mean along columns
 print(np.mean(array, axis=1))  # Mean along rows
 
+
+print(np.min(array))
+print(np.argmin(array))
 print(np.max(array))
 print(np.argmax(array))
+
