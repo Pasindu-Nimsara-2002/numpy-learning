@@ -7,7 +7,12 @@ ages = np.array([[15, 14, 19, 20, 18],
 teens = ages[ages <= 19]
 adults = ages[(ages > 19) & (ages < 65)]
 elders = ages[ages >= 65]
+evens = ages[ages % 2 == 0]
+odds = ages[ages % 2 != 0]
 
 print("Teens:", teens)
 print("Adults:", adults)
 print("Elders:", elders)
+print("Even ages:", evens)
+print("Odd ages:", odds)
+
