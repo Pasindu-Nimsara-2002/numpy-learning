@@ -1,6 +1,7 @@
 import numpy as np
 
-ages = np.array([[25, 30, 35, 40, 45],
+ages = np.array([[15, 14, 19, 20, 18],
+                 [25, 30, 35, 40, 45],
                  [50, 55, 60, 65, 70]])
 
 teens = ages[ages <= 19]
