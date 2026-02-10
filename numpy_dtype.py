@@ -5,3 +5,5 @@ array = np.array([[[1,2,3], [4,5,6], [7,8,9], [10,11,12]],
 
 print(f"Array:\n{array}")
 print(f"Data type: {array.dtype}")
+
+array_int = array.astype(np.int32)
