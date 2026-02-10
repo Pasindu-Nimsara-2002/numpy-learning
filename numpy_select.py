@@ -7,3 +7,4 @@ print(array.shape)
 
 print(array[0, :, 0])  # 1, 4, 7, 10
 print(array[0, :, 0].shape)
+print(array[0, :, 0].ndim)
